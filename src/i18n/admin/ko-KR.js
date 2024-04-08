@@ -21,6 +21,7 @@ export const m = {
   User_User: '사용자',
   Import_User: '사용자 가져오기',
   Generate_User: '사용자 생성하기',
+  Generate_Export: '생성 & xlsx 다운로드',
   // User.vue-dialog
   User_Info: '사용자',
   User_Username: '아이디',
@@ -91,9 +92,9 @@ export const m = {
   Source: '소스코드',
   Edit_Problem: '문제 수정',
   Add_Problem: '문제 추가',
-  High: 'High',
-  Mid: 'Mid',
-  Low: 'Low',
+  High: '매운맛',
+  Mid: '중간맛',
+  Low: '순한맛',
   Tag: 'Tag',
   New_Tag: 'New Tag',
   // ProblemList.vue

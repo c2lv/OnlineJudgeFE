@@ -17,7 +17,7 @@
             <Input v-model="formPassword.tfa_code"/>
           </FormItem>
           <FormItem v-if="visible.passwordAlert">
-            <Alert type="success">You will need to login again after 5 seconds..</Alert>
+            <Alert type="success">{{$t('m.Update_Password_Success')}}</Alert>
           </FormItem>
           <Button type="primary" @click="changePassword">{{$t('m.Update_Password')}}</Button>
         </Form>

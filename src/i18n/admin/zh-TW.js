@@ -21,6 +21,7 @@ export const m = {
   User_User: '使用者',
   Import_User: '匯入使用者',
   Generate_User: '生成使用者',
+  Generate_Export: 'Generate & Export',
   // User.vue-dialog
   User_Info: '使用者資訊',
   User_Username: '使用者名稱',

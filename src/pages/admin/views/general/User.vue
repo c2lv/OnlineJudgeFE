@@ -157,7 +157,7 @@
         </el-row>
 
         <el-form-item>
-          <el-button type="primary" @click="generateUser" icon="el-icon-fa-users" :loading="loadingGenerate">Generate & Export
+          <el-button type="primary" @click="generateUser" icon="el-icon-fa-users" :loading="loadingGenerate">{{$t('m.Generate_Export')}}
           </el-button>
           <span class="userPreview" v-if="formGenerateUser.number_from && formGenerateUser.number_to &&
                                           formGenerateUser.number_from <= formGenerateUser.number_to">

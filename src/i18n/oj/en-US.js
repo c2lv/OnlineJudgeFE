@@ -177,6 +177,7 @@ export const m = {
   ChangePassword: 'Change Password',
   ChangeEmail: 'Change Email',
   Update_Password: 'Update Password',
+  Update_Password_Success: 'You will need to login again after 5 seconds..',
   // ProfileSetting.vue
   Avatar_Setting: 'Avatar Setting',
   Profile_Setting: 'Profile Setting',
